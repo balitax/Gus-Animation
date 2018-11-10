@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B901ECAE219718CB0025FB54 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B901ECAD219718CB0025FB54 /* AppDelegate.swift */; };
+		B901ECB0219718CB0025FB54 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B901ECAF219718CB0025FB54 /* ViewController.swift */; };
+		B901ECB3219718CB0025FB54 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B901ECB1219718CB0025FB54 /* Main.storyboard */; };
+		B901ECB5219718CD0025FB54 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B901ECB4219718CD0025FB54 /* Assets.xcassets */; };
+		B901ECB8219718CD0025FB54 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B901ECB6219718CD0025FB54 /* LaunchScreen.storyboard */; };
+		B901ECC3219718CD0025FB54 /* Gus_AnimationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B901ECC2219718CD0025FB54 /* Gus_AnimationTests.swift */; };
+		B901ECCE219718CD0025FB54 /* Gus_AnimationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B901ECCD219718CD0025FB54 /* Gus_AnimationUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B901ECBF219718CD0025FB54 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B901ECA2219718CB0025FB54 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B901ECA9219718CB0025FB54;
+			remoteInfo = "Gus Animation";
+		};
+		B901ECCA219718CD0025FB54 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B901ECA2219718CB0025FB54 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B901ECA9219718CB0025FB54;
+			remoteInfo = "Gus Animation";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B901ECAA219718CB0025FB54 /* Gus Animation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Gus Animation.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B901ECAD219718CB0025FB54 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B901ECAF219718CB0025FB54 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B901ECB2219718CB0025FB54 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B901ECB4219718CD0025FB54 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B901ECB7219718CD0025FB54 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B901ECB9219718CD0025FB54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B901ECBE219718CD0025FB54 /* Gus AnimationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Gus AnimationTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B901ECC2219718CD0025FB54 /* Gus_AnimationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gus_AnimationTests.swift; sourceTree = "<group>"; };
+		B901ECC4219718CD0025FB54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B901ECC9219718CD0025FB54 /* Gus AnimationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Gus AnimationUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B901ECCD219718CD0025FB54 /* Gus_AnimationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gus_AnimationUITests.swift; sourceTree = "<group>"; };
+		B901ECCF219718CD0025FB54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B901ECA7219718CB0025FB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B901ECBB219718CD0025FB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B901ECC6219718CD0025FB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B901ECA1219718CB0025FB54 = {
+			isa = PBXGroup;
+			children = (
+				B901ECAC219718CB0025FB54 /* Gus Animation */,
+				B901ECC1219718CD0025FB54 /* Gus AnimationTests */,
+				B901ECCC219718CD0025FB54 /* Gus AnimationUITests */,
+				B901ECAB219718CB0025FB54 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B901ECAB219718CB0025FB54 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B901ECAA219718CB0025FB54 /* Gus Animation.app */,
+				B901ECBE219718CD0025FB54 /* Gus AnimationTests.xctest */,
+				B901ECC9219718CD0025FB54 /* Gus AnimationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B901ECAC219718CB0025FB54 /* Gus Animation */ = {
+			isa = PBXGroup;
+			children = (
+				B901ECAD219718CB0025FB54 /* AppDelegate.swift */,
+				B901ECAF219718CB0025FB54 /* ViewController.swift */,
+				B901ECB1219718CB0025FB54 /* Main.storyboard */,
+				B901ECB4219718CD0025FB54 /* Assets.xcassets */,
+				B901ECB6219718CD0025FB54 /* LaunchScreen.storyboard */,
+				B901ECB9219718CD0025FB54 /* Info.plist */,
+			);
+			path = "Gus Animation";
+			sourceTree = "<group>";
+		};
+		B901ECC1219718CD0025FB54 /* Gus AnimationTests */ = {
+			isa = PBXGroup;
+			children = (
+				B901ECC2219718CD0025FB54 /* Gus_AnimationTests.swift */,
+				B901ECC4219718CD0025FB54 /* Info.plist */,
+			);
+			path = "Gus AnimationTests";
+			sourceTree = "<group>";
+		};
+		B901ECCC219718CD0025FB54 /* Gus AnimationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B901ECCD219718CD0025FB54 /* Gus_AnimationUITests.swift */,
+				B901ECCF219718CD0025FB54 /* Info.plist */,
+			);
+			path = "Gus AnimationUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B901ECA9219718CB0025FB54 /* Gus Animation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B901ECD2219718CD0025FB54 /* Build configuration list for PBXNativeTarget "Gus Animation" */;
+			buildPhases = (
+				B901ECA6219718CB0025FB54 /* Sources */,
+				B901ECA7219718CB0025FB54 /* Frameworks */,
+				B901ECA8219718CB0025FB54 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Gus Animation";
+			productName = "Gus Animation";
+			productReference = B901ECAA219718CB0025FB54 /* Gus Animation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B901ECBD219718CD0025FB54 /* Gus AnimationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B901ECD5219718CD0025FB54 /* Build configuration list for PBXNativeTarget "Gus AnimationTests" */;
+			buildPhases = (
+				B901ECBA219718CD0025FB54 /* Sources */,
+				B901ECBB219718CD0025FB54 /* Frameworks */,
+				B901ECBC219718CD0025FB54 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B901ECC0219718CD0025FB54 /* PBXTargetDependency */,
+			);
+			name = "Gus AnimationTests";
+			productName = "Gus AnimationTests";
+			productReference = B901ECBE219718CD0025FB54 /* Gus AnimationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B901ECC8219718CD0025FB54 /* Gus AnimationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B901ECD8219718CD0025FB54 /* Build configuration list for PBXNativeTarget "Gus AnimationUITests" */;
+			buildPhases = (
+				B901ECC5219718CD0025FB54 /* Sources */,
+				B901ECC6219718CD0025FB54 /* Frameworks */,
+				B901ECC7219718CD0025FB54 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B901ECCB219718CD0025FB54 /* PBXTargetDependency */,
+			);
+			name = "Gus AnimationUITests";
+			productName = "Gus AnimationUITests";
+			productReference = B901ECC9219718CD0025FB54 /* Gus AnimationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B901ECA2219718CB0025FB54 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Agus Cahyono";
+				TargetAttributes = {
+					B901ECA9219718CB0025FB54 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					B901ECBD219718CD0025FB54 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = B901ECA9219718CB0025FB54;
+					};
+					B901ECC8219718CD0025FB54 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = B901ECA9219718CB0025FB54;
+					};
+				};
+			};
+			buildConfigurationList = B901ECA5219718CB0025FB54 /* Build configuration list for PBXProject "Gus Animation" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B901ECA1219718CB0025FB54;
+			productRefGroup = B901ECAB219718CB0025FB54 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B901ECA9219718CB0025FB54 /* Gus Animation */,
+				B901ECBD219718CD0025FB54 /* Gus AnimationTests */,
+				B901ECC8219718CD0025FB54 /* Gus AnimationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B901ECA8219718CB0025FB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B901ECB8219718CD0025FB54 /* LaunchScreen.storyboard in Resources */,
+				B901ECB5219718CD0025FB54 /* Assets.xcassets in Resources */,
+				B901ECB3219718CB0025FB54 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B901ECBC219718CD0025FB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B901ECC7219718CD0025FB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B901ECA6219718CB0025FB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B901ECB0219718CB0025FB54 /* ViewController.swift in Sources */,
+				B901ECAE219718CB0025FB54 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B901ECBA219718CD0025FB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B901ECC3219718CD0025FB54 /* Gus_AnimationTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B901ECC5219718CD0025FB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B901ECCE219718CD0025FB54 /* Gus_AnimationUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B901ECC0219718CD0025FB54 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B901ECA9219718CB0025FB54 /* Gus Animation */;
+			targetProxy = B901ECBF219718CD0025FB54 /* PBXContainerItemProxy */;
+		};
+		B901ECCB219718CD0025FB54 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B901ECA9219718CB0025FB54 /* Gus Animation */;
+			targetProxy = B901ECCA219718CD0025FB54 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B901ECB1219718CB0025FB54 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B901ECB2219718CB0025FB54 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B901ECB6219718CD0025FB54 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B901ECB7219718CD0025FB54 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B901ECD0219718CD0025FB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B901ECD1219718CD0025FB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B901ECD3219718CD0025FB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VNKMY4BMXA;
+				INFOPLIST_FILE = "Gus Animation/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.agus.Gus-Animation";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B901ECD4219718CD0025FB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VNKMY4BMXA;
+				INFOPLIST_FILE = "Gus Animation/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.agus.Gus-Animation";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B901ECD6219718CD0025FB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VNKMY4BMXA;
+				INFOPLIST_FILE = "Gus AnimationTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.agus.Gus-AnimationTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gus Animation.app/Gus Animation";
+			};
+			name = Debug;
+		};
+		B901ECD7219718CD0025FB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VNKMY4BMXA;
+				INFOPLIST_FILE = "Gus AnimationTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.agus.Gus-AnimationTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gus Animation.app/Gus Animation";
+			};
+			name = Release;
+		};
+		B901ECD9219718CD0025FB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VNKMY4BMXA;
+				INFOPLIST_FILE = "Gus AnimationUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.agus.Gus-AnimationUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Gus Animation";
+			};
+			name = Debug;
+		};
+		B901ECDA219718CD0025FB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VNKMY4BMXA;
+				INFOPLIST_FILE = "Gus AnimationUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.agus.Gus-AnimationUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Gus Animation";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B901ECA5219718CB0025FB54 /* Build configuration list for PBXProject "Gus Animation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B901ECD0219718CD0025FB54 /* Debug */,
+				B901ECD1219718CD0025FB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B901ECD2219718CD0025FB54 /* Build configuration list for PBXNativeTarget "Gus Animation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B901ECD3219718CD0025FB54 /* Debug */,
+				B901ECD4219718CD0025FB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B901ECD5219718CD0025FB54 /* Build configuration list for PBXNativeTarget "Gus AnimationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B901ECD6219718CD0025FB54 /* Debug */,
+				B901ECD7219718CD0025FB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B901ECD8219718CD0025FB54 /* Build configuration list for PBXNativeTarget "Gus AnimationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B901ECD9219718CD0025FB54 /* Debug */,
+				B901ECDA219718CD0025FB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B901ECA2219718CB0025FB54 /* Project object */;
+}

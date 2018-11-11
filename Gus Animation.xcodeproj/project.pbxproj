@@ -33,6 +33,17 @@
 		B901ED102197CA9C0025FB54 /* NavigationView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B901ED0F2197CA9C0025FB54 /* NavigationView.xib */; };
 		B940135221986FA600D30627 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B940135121986FA600D30627 /* DetailViewController.swift */; };
 		B94013542198755500D30627 /* DismissButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B94013532198755500D30627 /* DismissButton.swift */; };
+		B9FD226B21988BB6008690EB /* GSImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9FD226A21988BB6008690EB /* GSImageView.swift */; };
+		B9FD226D21988DAD008690EB /* GSButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9FD226C21988DAD008690EB /* GSButton.swift */; };
+		B9FD226F21988FBB008690EB /* GSView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9FD226E21988FBB008690EB /* GSView.swift */; };
+		B9FD2279219892C7008690EB /* WCLShineLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9FD2271219892C7008690EB /* WCLShineLayer.swift */; };
+		B9FD227A219892C7008690EB /* WCLShineClickLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9FD2272219892C7008690EB /* WCLShineClickLayer.swift */; };
+		B9FD227B219892C7008690EB /* WCLShineParams.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9FD2273219892C7008690EB /* WCLShineParams.swift */; };
+		B9FD227C219892C7008690EB /* WCLShineButton.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B9FD2274219892C7008690EB /* WCLShineButton.bundle */; };
+		B9FD227D219892C7008690EB /* WCLShineButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9FD2275219892C7008690EB /* WCLShineButton.swift */; };
+		B9FD227E219892C7008690EB /* WCLShineBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9FD2276219892C7008690EB /* WCLShineBundle.swift */; };
+		B9FD2280219892C7008690EB /* WCLShineAngleLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9FD2278219892C7008690EB /* WCLShineAngleLayer.swift */; };
+		B9FD228221989395008690EB /* HomeViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9FD228121989395008690EB /* HomeViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -86,6 +97,17 @@
 		B901ED0F2197CA9C0025FB54 /* NavigationView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NavigationView.xib; sourceTree = "<group>"; };
 		B940135121986FA600D30627 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		B94013532198755500D30627 /* DismissButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DismissButton.swift; sourceTree = "<group>"; };
+		B9FD226A21988BB6008690EB /* GSImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GSImageView.swift; sourceTree = "<group>"; };
+		B9FD226C21988DAD008690EB /* GSButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GSButton.swift; sourceTree = "<group>"; };
+		B9FD226E21988FBB008690EB /* GSView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GSView.swift; sourceTree = "<group>"; };
+		B9FD2271219892C7008690EB /* WCLShineLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WCLShineLayer.swift; sourceTree = "<group>"; };
+		B9FD2272219892C7008690EB /* WCLShineClickLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WCLShineClickLayer.swift; sourceTree = "<group>"; };
+		B9FD2273219892C7008690EB /* WCLShineParams.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WCLShineParams.swift; sourceTree = "<group>"; };
+		B9FD2274219892C7008690EB /* WCLShineButton.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = WCLShineButton.bundle; sourceTree = "<group>"; };
+		B9FD2275219892C7008690EB /* WCLShineButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WCLShineButton.swift; sourceTree = "<group>"; };
+		B9FD2276219892C7008690EB /* WCLShineBundle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WCLShineBundle.swift; sourceTree = "<group>"; };
+		B9FD2278219892C7008690EB /* WCLShineAngleLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WCLShineAngleLayer.swift; sourceTree = "<group>"; };
+		B9FD228121989395008690EB /* HomeViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -179,6 +201,7 @@
 		B901ECE021971D8A0025FB54 /* Libs */ = {
 			isa = PBXGroup;
 			children = (
+				B9FD2270219892C7008690EB /* WCLShineButton */,
 				B901ECF0219726EB0025FB54 /* FloatingPanel */,
 				B901ED06219729840025FB54 /* GSParallaxHeader.swift */,
 				B901ECE121971DAD0025FB54 /* GSStretchableHeader.swift */,
@@ -218,6 +241,9 @@
 				B901ED0A2197CA700025FB54 /* NavigationView.swift */,
 				B901ED0F2197CA9C0025FB54 /* NavigationView.xib */,
 				B94013532198755500D30627 /* DismissButton.swift */,
+				B9FD226A21988BB6008690EB /* GSImageView.swift */,
+				B9FD226C21988DAD008690EB /* GSButton.swift */,
+				B9FD226E21988FBB008690EB /* GSView.swift */,
 			);
 			path = Reusable;
 			sourceTree = "<group>";
@@ -228,8 +254,23 @@
 				B901ECE52197211E0025FB54 /* HomeViewController.swift */,
 				B901ED082197C5340025FB54 /* BaseView.swift */,
 				B940135121986FA600D30627 /* DetailViewController.swift */,
+				B9FD228121989395008690EB /* HomeViewCell.swift */,
 			);
 			path = Controller;
+			sourceTree = "<group>";
+		};
+		B9FD2270219892C7008690EB /* WCLShineButton */ = {
+			isa = PBXGroup;
+			children = (
+				B9FD2271219892C7008690EB /* WCLShineLayer.swift */,
+				B9FD2272219892C7008690EB /* WCLShineClickLayer.swift */,
+				B9FD2273219892C7008690EB /* WCLShineParams.swift */,
+				B9FD2274219892C7008690EB /* WCLShineButton.bundle */,
+				B9FD2275219892C7008690EB /* WCLShineButton.swift */,
+				B9FD2276219892C7008690EB /* WCLShineBundle.swift */,
+				B9FD2278219892C7008690EB /* WCLShineAngleLayer.swift */,
+			);
+			path = WCLShineButton;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -336,6 +377,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B9FD227C219892C7008690EB /* WCLShineButton.bundle in Resources */,
 				B901ECB8219718CD0025FB54 /* LaunchScreen.storyboard in Resources */,
 				B901ED102197CA9C0025FB54 /* NavigationView.xib in Resources */,
 				B901ECB5219718CD0025FB54 /* Assets.xcassets in Resources */,
@@ -368,18 +410,28 @@
 				B901ECE62197211E0025FB54 /* HomeViewController.swift in Sources */,
 				B901ED05219726EB0025FB54 /* UIExtensions.swift in Sources */,
 				B901ECE221971DAD0025FB54 /* GSStretchableHeader.swift in Sources */,
+				B9FD226D21988DAD008690EB /* GSButton.swift in Sources */,
 				B901ECFF219726EB0025FB54 /* FloatingPanel.swift in Sources */,
+				B9FD226B21988BB6008690EB /* GSImageView.swift in Sources */,
 				B901ED0C2197CA700025FB54 /* NavigationView.swift in Sources */,
 				B901ED04219726EB0025FB54 /* FloatingPanelBackdropView.swift in Sources */,
+				B9FD226F21988FBB008690EB /* GSView.swift in Sources */,
 				B901ECFD219726EB0025FB54 /* FloatingPanelSurfaceView.swift in Sources */,
 				B901ED07219729840025FB54 /* GSParallaxHeader.swift in Sources */,
+				B9FD228221989395008690EB /* HomeViewCell.swift in Sources */,
+				B9FD227A219892C7008690EB /* WCLShineClickLayer.swift in Sources */,
+				B9FD2279219892C7008690EB /* WCLShineLayer.swift in Sources */,
 				B901ECE421971F730025FB54 /* UIView+Extension.swift in Sources */,
 				B940135221986FA600D30627 /* DetailViewController.swift in Sources */,
 				B901ECAE219718CB0025FB54 /* AppDelegate.swift in Sources */,
+				B9FD2280219892C7008690EB /* WCLShineAngleLayer.swift in Sources */,
 				B94013542198755500D30627 /* DismissButton.swift in Sources */,
 				B901ECFC219726EB0025FB54 /* FloatingPanelController.swift in Sources */,
+				B9FD227D219892C7008690EB /* WCLShineButton.swift in Sources */,
+				B9FD227B219892C7008690EB /* WCLShineParams.swift in Sources */,
 				B901ECEF219724ED0025FB54 /* UIColor+Extension.swift in Sources */,
 				B901ED00219726EB0025FB54 /* FloatingPanelBehavior.swift in Sources */,
+				B9FD227E219892C7008690EB /* WCLShineBundle.swift in Sources */,
 				B901ED01219726EB0025FB54 /* GrabberHandleView.swift in Sources */,
 				B901ED02219726EB0025FB54 /* FloatingPanelLayout.swift in Sources */,
 				B901ECFE219726EB0025FB54 /* Logger.swift in Sources */,

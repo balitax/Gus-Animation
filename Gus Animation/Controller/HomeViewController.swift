@@ -23,7 +23,6 @@ class HomeViewController: BaseView, UITableViewDataSource, UITableViewDelegate, 
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        tableView.register(UITableViewCell.self, forCellReuseIdentifier: "cell")
         tableView.showsVerticalScrollIndicator = false
         
         self.parallaxHeader = GSParallaxHeader(frame: CGRect(x: 0, y: 0, width: self.view.bounds.width, height: 150))
@@ -59,8 +58,10 @@ class HomeViewController: BaseView, UITableViewDataSource, UITableViewDelegate, 
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
-        let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
-        cell.textLabel?.text = "000-\(indexPath.row + 1)"
+        let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath) as! HomeViewCell
+        
+        cell.buildMenu()
+        
         return cell
     }
     

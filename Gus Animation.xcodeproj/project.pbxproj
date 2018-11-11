@@ -8,12 +8,31 @@
 
 /* Begin PBXBuildFile section */
 		B901ECAE219718CB0025FB54 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B901ECAD219718CB0025FB54 /* AppDelegate.swift */; };
-		B901ECB0219718CB0025FB54 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B901ECAF219718CB0025FB54 /* ViewController.swift */; };
 		B901ECB3219718CB0025FB54 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B901ECB1219718CB0025FB54 /* Main.storyboard */; };
 		B901ECB5219718CD0025FB54 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B901ECB4219718CD0025FB54 /* Assets.xcassets */; };
 		B901ECB8219718CD0025FB54 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B901ECB6219718CD0025FB54 /* LaunchScreen.storyboard */; };
 		B901ECC3219718CD0025FB54 /* Gus_AnimationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B901ECC2219718CD0025FB54 /* Gus_AnimationTests.swift */; };
 		B901ECCE219718CD0025FB54 /* Gus_AnimationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B901ECCD219718CD0025FB54 /* Gus_AnimationUITests.swift */; };
+		B901ECDE21971D730025FB54 /* gofood.png in Resources */ = {isa = PBXBuildFile; fileRef = B901ECDD21971D730025FB54 /* gofood.png */; };
+		B901ECE221971DAD0025FB54 /* GSStretchableHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = B901ECE121971DAD0025FB54 /* GSStretchableHeader.swift */; };
+		B901ECE421971F730025FB54 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B901ECE321971F730025FB54 /* UIView+Extension.swift */; };
+		B901ECE62197211E0025FB54 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B901ECE52197211E0025FB54 /* HomeViewController.swift */; };
+		B901ECEF219724ED0025FB54 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B901ECEE219724ED0025FB54 /* UIColor+Extension.swift */; };
+		B901ECFC219726EB0025FB54 /* FloatingPanelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B901ECF1219726EB0025FB54 /* FloatingPanelController.swift */; };
+		B901ECFD219726EB0025FB54 /* FloatingPanelSurfaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B901ECF2219726EB0025FB54 /* FloatingPanelSurfaceView.swift */; };
+		B901ECFE219726EB0025FB54 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = B901ECF3219726EB0025FB54 /* Logger.swift */; };
+		B901ECFF219726EB0025FB54 /* FloatingPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B901ECF4219726EB0025FB54 /* FloatingPanel.swift */; };
+		B901ED00219726EB0025FB54 /* FloatingPanelBehavior.swift in Sources */ = {isa = PBXBuildFile; fileRef = B901ECF5219726EB0025FB54 /* FloatingPanelBehavior.swift */; };
+		B901ED01219726EB0025FB54 /* GrabberHandleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B901ECF7219726EB0025FB54 /* GrabberHandleView.swift */; };
+		B901ED02219726EB0025FB54 /* FloatingPanelLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = B901ECF8219726EB0025FB54 /* FloatingPanelLayout.swift */; };
+		B901ED04219726EB0025FB54 /* FloatingPanelBackdropView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B901ECFA219726EB0025FB54 /* FloatingPanelBackdropView.swift */; };
+		B901ED05219726EB0025FB54 /* UIExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B901ECFB219726EB0025FB54 /* UIExtensions.swift */; };
+		B901ED07219729840025FB54 /* GSParallaxHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = B901ED06219729840025FB54 /* GSParallaxHeader.swift */; };
+		B901ED092197C5340025FB54 /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B901ED082197C5340025FB54 /* BaseView.swift */; };
+		B901ED0C2197CA700025FB54 /* NavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B901ED0A2197CA700025FB54 /* NavigationView.swift */; };
+		B901ED102197CA9C0025FB54 /* NavigationView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B901ED0F2197CA9C0025FB54 /* NavigationView.xib */; };
+		B940135221986FA600D30627 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B940135121986FA600D30627 /* DetailViewController.swift */; };
+		B94013542198755500D30627 /* DismissButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B94013532198755500D30627 /* DismissButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +55,6 @@
 /* Begin PBXFileReference section */
 		B901ECAA219718CB0025FB54 /* Gus Animation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Gus Animation.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B901ECAD219718CB0025FB54 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B901ECAF219718CB0025FB54 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B901ECB2219718CB0025FB54 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B901ECB4219718CD0025FB54 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B901ECB7219718CD0025FB54 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +65,27 @@
 		B901ECC9219718CD0025FB54 /* Gus AnimationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Gus AnimationUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B901ECCD219718CD0025FB54 /* Gus_AnimationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gus_AnimationUITests.swift; sourceTree = "<group>"; };
 		B901ECCF219718CD0025FB54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B901ECDD21971D730025FB54 /* gofood.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gofood.png; sourceTree = "<group>"; };
+		B901ECE121971DAD0025FB54 /* GSStretchableHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GSStretchableHeader.swift; sourceTree = "<group>"; };
+		B901ECE321971F730025FB54 /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		B901ECE52197211E0025FB54 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		B901ECEE219724ED0025FB54 /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		B901ECF1219726EB0025FB54 /* FloatingPanelController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FloatingPanelController.swift; sourceTree = "<group>"; };
+		B901ECF2219726EB0025FB54 /* FloatingPanelSurfaceView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FloatingPanelSurfaceView.swift; sourceTree = "<group>"; };
+		B901ECF3219726EB0025FB54 /* Logger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
+		B901ECF4219726EB0025FB54 /* FloatingPanel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FloatingPanel.swift; sourceTree = "<group>"; };
+		B901ECF5219726EB0025FB54 /* FloatingPanelBehavior.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FloatingPanelBehavior.swift; sourceTree = "<group>"; };
+		B901ECF6219726EB0025FB54 /* FloatingPanelController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FloatingPanelController.h; sourceTree = "<group>"; };
+		B901ECF7219726EB0025FB54 /* GrabberHandleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GrabberHandleView.swift; sourceTree = "<group>"; };
+		B901ECF8219726EB0025FB54 /* FloatingPanelLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FloatingPanelLayout.swift; sourceTree = "<group>"; };
+		B901ECFA219726EB0025FB54 /* FloatingPanelBackdropView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FloatingPanelBackdropView.swift; sourceTree = "<group>"; };
+		B901ECFB219726EB0025FB54 /* UIExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIExtensions.swift; sourceTree = "<group>"; };
+		B901ED06219729840025FB54 /* GSParallaxHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GSParallaxHeader.swift; sourceTree = "<group>"; };
+		B901ED082197C5340025FB54 /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
+		B901ED0A2197CA700025FB54 /* NavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationView.swift; sourceTree = "<group>"; };
+		B901ED0F2197CA9C0025FB54 /* NavigationView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NavigationView.xib; sourceTree = "<group>"; };
+		B940135121986FA600D30627 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		B94013532198755500D30627 /* DismissButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DismissButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +120,7 @@
 				B901ECC1219718CD0025FB54 /* Gus AnimationTests */,
 				B901ECCC219718CD0025FB54 /* Gus AnimationUITests */,
 				B901ECAB219718CB0025FB54 /* Products */,
+				B901ECE7219721840025FB54 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,8 +137,11 @@
 		B901ECAC219718CB0025FB54 /* Gus Animation */ = {
 			isa = PBXGroup;
 			children = (
+				B940135021986F8200D30627 /* Controller */,
+				B901ED0E2197CA740025FB54 /* Reusable */,
+				B901ECE021971D8A0025FB54 /* Libs */,
+				B901ECDF21971D780025FB54 /* Resource */,
 				B901ECAD219718CB0025FB54 /* AppDelegate.swift */,
-				B901ECAF219718CB0025FB54 /* ViewController.swift */,
 				B901ECB1219718CB0025FB54 /* Main.storyboard */,
 				B901ECB4219718CD0025FB54 /* Assets.xcassets */,
 				B901ECB6219718CD0025FB54 /* LaunchScreen.storyboard */,
@@ -123,6 +166,70 @@
 				B901ECCF219718CD0025FB54 /* Info.plist */,
 			);
 			path = "Gus AnimationUITests";
+			sourceTree = "<group>";
+		};
+		B901ECDF21971D780025FB54 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				B901ECDD21971D730025FB54 /* gofood.png */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		B901ECE021971D8A0025FB54 /* Libs */ = {
+			isa = PBXGroup;
+			children = (
+				B901ECF0219726EB0025FB54 /* FloatingPanel */,
+				B901ED06219729840025FB54 /* GSParallaxHeader.swift */,
+				B901ECE121971DAD0025FB54 /* GSStretchableHeader.swift */,
+				B901ECE321971F730025FB54 /* UIView+Extension.swift */,
+				B901ECEE219724ED0025FB54 /* UIColor+Extension.swift */,
+			);
+			path = Libs;
+			sourceTree = "<group>";
+		};
+		B901ECE7219721840025FB54 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B901ECF0219726EB0025FB54 /* FloatingPanel */ = {
+			isa = PBXGroup;
+			children = (
+				B901ECF1219726EB0025FB54 /* FloatingPanelController.swift */,
+				B901ECF2219726EB0025FB54 /* FloatingPanelSurfaceView.swift */,
+				B901ECF3219726EB0025FB54 /* Logger.swift */,
+				B901ECF4219726EB0025FB54 /* FloatingPanel.swift */,
+				B901ECF5219726EB0025FB54 /* FloatingPanelBehavior.swift */,
+				B901ECF6219726EB0025FB54 /* FloatingPanelController.h */,
+				B901ECF7219726EB0025FB54 /* GrabberHandleView.swift */,
+				B901ECF8219726EB0025FB54 /* FloatingPanelLayout.swift */,
+				B901ECFA219726EB0025FB54 /* FloatingPanelBackdropView.swift */,
+				B901ECFB219726EB0025FB54 /* UIExtensions.swift */,
+			);
+			path = FloatingPanel;
+			sourceTree = "<group>";
+		};
+		B901ED0E2197CA740025FB54 /* Reusable */ = {
+			isa = PBXGroup;
+			children = (
+				B901ED0A2197CA700025FB54 /* NavigationView.swift */,
+				B901ED0F2197CA9C0025FB54 /* NavigationView.xib */,
+				B94013532198755500D30627 /* DismissButton.swift */,
+			);
+			path = Reusable;
+			sourceTree = "<group>";
+		};
+		B940135021986F8200D30627 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B901ECE52197211E0025FB54 /* HomeViewController.swift */,
+				B901ED082197C5340025FB54 /* BaseView.swift */,
+				B940135121986FA600D30627 /* DetailViewController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -230,8 +337,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				B901ECB8219718CD0025FB54 /* LaunchScreen.storyboard in Resources */,
+				B901ED102197CA9C0025FB54 /* NavigationView.xib in Resources */,
 				B901ECB5219718CD0025FB54 /* Assets.xcassets in Resources */,
 				B901ECB3219718CB0025FB54 /* Main.storyboard in Resources */,
+				B901ECDE21971D730025FB54 /* gofood.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,8 +365,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B901ECB0219718CB0025FB54 /* ViewController.swift in Sources */,
+				B901ECE62197211E0025FB54 /* HomeViewController.swift in Sources */,
+				B901ED05219726EB0025FB54 /* UIExtensions.swift in Sources */,
+				B901ECE221971DAD0025FB54 /* GSStretchableHeader.swift in Sources */,
+				B901ECFF219726EB0025FB54 /* FloatingPanel.swift in Sources */,
+				B901ED0C2197CA700025FB54 /* NavigationView.swift in Sources */,
+				B901ED04219726EB0025FB54 /* FloatingPanelBackdropView.swift in Sources */,
+				B901ECFD219726EB0025FB54 /* FloatingPanelSurfaceView.swift in Sources */,
+				B901ED07219729840025FB54 /* GSParallaxHeader.swift in Sources */,
+				B901ECE421971F730025FB54 /* UIView+Extension.swift in Sources */,
+				B940135221986FA600D30627 /* DetailViewController.swift in Sources */,
 				B901ECAE219718CB0025FB54 /* AppDelegate.swift in Sources */,
+				B94013542198755500D30627 /* DismissButton.swift in Sources */,
+				B901ECFC219726EB0025FB54 /* FloatingPanelController.swift in Sources */,
+				B901ECEF219724ED0025FB54 /* UIColor+Extension.swift in Sources */,
+				B901ED00219726EB0025FB54 /* FloatingPanelBehavior.swift in Sources */,
+				B901ED01219726EB0025FB54 /* GrabberHandleView.swift in Sources */,
+				B901ED02219726EB0025FB54 /* FloatingPanelLayout.swift in Sources */,
+				B901ECFE219726EB0025FB54 /* Logger.swift in Sources */,
+				B901ED092197C5340025FB54 /* BaseView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -434,6 +560,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = VNKMY4BMXA;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Gus\\ Animation",
+					"$(PROJECT_DIR)/Gus\\ Animation/Resource",
+					"$(PROJECT_DIR)/Gus\\ Animation",
+					"$(PROJECT_DIR)/Gus\\ Animation",
+					"$(PROJECT_DIR)/Gus\\ Animation/Libs",
+				);
 				INFOPLIST_FILE = "Gus Animation/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -452,6 +586,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = VNKMY4BMXA;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Gus\\ Animation",
+					"$(PROJECT_DIR)/Gus\\ Animation/Resource",
+					"$(PROJECT_DIR)/Gus\\ Animation",
+					"$(PROJECT_DIR)/Gus\\ Animation",
+					"$(PROJECT_DIR)/Gus\\ Animation/Libs",
+				);
 				INFOPLIST_FILE = "Gus Animation/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

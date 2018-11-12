@@ -23,8 +23,7 @@ class HomeViewController: BaseView, UITableViewDataSource, UITableViewDelegate, 
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        tableView.register(HeaderSectionCell.create(), forCellReuseIdentifier: "headerSection")
-        self.tableView.sectionHeaderHeight = 48
+        self.tableView.sectionHeaderHeight = 8
         
         tableView.showsVerticalScrollIndicator = false
         
@@ -55,8 +54,16 @@ class HomeViewController: BaseView, UITableViewDataSource, UITableViewDelegate, 
         self.navigationController?.view.addSubview(navView)
     }
     
+    func numberOfSections(in tableView: UITableView) -> Int {
+        return 4
+    }
+    
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 20
+        if section % 2 == 0 {
+            return 4
+        } else {
+            return 5
+        }
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
@@ -77,15 +84,19 @@ class HomeViewController: BaseView, UITableViewDataSource, UITableViewDelegate, 
     }
     
     func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
+        let headerView = UIView(frame: CGRect.init(x: 0, y: 0, width: UIScreen.main.bounds.size.width, height: 48))
+        headerView.backgroundColor = UIColor.white
         
-        let headerView = UIView.init(frame: CGRect.init(x: 0, y: 0, width: UIScreen.main.bounds.size.width, height: 48))
-
-        let headerCell = tableView.dequeueReusableCell(withIdentifier: "headerSection") as! HeaderSectionCell
-        headerView.backgroundColor = .white
-        headerCell.titleSection.text = "Aneka Makanan Dengan Harga 10 Ribuan"
+        let sectionHeader = HeaderSection(frame: headerView.bounds)
+        sectionHeader.sectionTitle.text = "Aneka Makanan 10 Ribuan"
         
-        headerView.addSubview(headerCell)
+        headerView.addSubview(sectionHeader)
+        
         return headerView
+    }
+    
+    func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
+        return 48
     }
     
     func addMainPanel(with contentVC: DetailViewController) {
@@ -146,7 +157,6 @@ class HomeViewController: BaseView, UITableViewDataSource, UITableViewDelegate, 
     func floatingPanel(_ vc: FloatingPanelController, layoutFor newCollection: UITraitCollection) -> FloatingPanelLayout? {
          return newCollection.verticalSizeClass == .compact ? RemovablePanelLandscapeLayout() :  RemovablePanelLayout()
     }
-    
     
     
 }

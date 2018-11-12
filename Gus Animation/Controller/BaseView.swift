@@ -8,7 +8,7 @@
 
 import UIKit
 
-class BaseView: UIViewController {
+class BaseView: UIViewController  {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -21,15 +21,50 @@ class BaseView: UIViewController {
         self.navigationController?.view.backgroundColor = .clear
     }
     
+}
 
-    /*
-    // MARK: - Navigation
 
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+class RemovablePanelLayout: FloatingPanelLayout {
+    var initialPosition: FloatingPanelPosition {
+        return .half
     }
-    */
+    var supportedPositions: Set<FloatingPanelPosition> {
+        return [.full, .half]
+    }
+    var bottomInteractionBuffer: CGFloat {
+        return 261.0 - 22.0
+    }
+    
+    func insetFor(position: FloatingPanelPosition) -> CGFloat? {
+        switch position {
+        case .full: return 16.0
+        case .half: return 261.0
+        default: return nil
+        }
+    }
+    func backdropAlphaFor(position: FloatingPanelPosition) -> CGFloat {
+        return 0.3
+    }
+}
 
+class RemovablePanelLandscapeLayout: FloatingPanelLayout {
+    var initialPosition: FloatingPanelPosition {
+        return .half
+    }
+    var supportedPositions: Set<FloatingPanelPosition> {
+        return [.half]
+    }
+    var bottomInteractionBuffer: CGFloat {
+        return 261.0 - 22.0
+    }
+    
+    func insetFor(position: FloatingPanelPosition) -> CGFloat? {
+        switch position {
+        case .half: return 261.0
+        default: return nil
+        }
+    }
+    func backdropAlphaFor(position: FloatingPanelPosition) -> CGFloat {
+        return 0.3
+    }
 }

@@ -18,12 +18,11 @@ class HomeViewController: BaseView, UITableViewDataSource, UITableViewDelegate, 
     var parallaxHeader: GSParallaxHeader!
     
     var mainPanelVC: FloatingPanelController!
-    var detailPanelVC: FloatingPanelController!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        self.tableView.sectionHeaderHeight = 8
+        self.tableView.sectionHeaderHeight = 48
         
         tableView.showsVerticalScrollIndicator = false
         
@@ -60,9 +59,9 @@ class HomeViewController: BaseView, UITableViewDataSource, UITableViewDelegate, 
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         if section % 2 == 0 {
-            return 4
+            return 10
         } else {
-            return 5
+            return 10
         }
     }
     
@@ -103,7 +102,7 @@ class HomeViewController: BaseView, UITableViewDataSource, UITableViewDelegate, 
         // Initialize FloatingPanelController
         mainPanelVC = FloatingPanelController()
         mainPanelVC.delegate = self
-        mainPanelVC.isRemovalInteractionEnabled = false
+        mainPanelVC.isRemovalInteractionEnabled = true
         
         // Initialize FloatingPanelController and add the view
         mainPanelVC.surfaceView.cornerRadius = 15.0
@@ -158,50 +157,4 @@ class HomeViewController: BaseView, UITableViewDataSource, UITableViewDelegate, 
          return newCollection.verticalSizeClass == .compact ? RemovablePanelLandscapeLayout() :  RemovablePanelLayout()
     }
     
-    
-}
-
-class RemovablePanelLayout: FloatingPanelLayout {
-    var initialPosition: FloatingPanelPosition {
-        return .half
-    }
-    var supportedPositions: Set<FloatingPanelPosition> {
-        return [.full, .half]
-    }
-    var bottomInteractionBuffer: CGFloat {
-        return 261.0 - 22.0
-    }
-    
-    func insetFor(position: FloatingPanelPosition) -> CGFloat? {
-        switch position {
-        case .full: return 16.0
-        case .half: return 261.0
-        default: return nil
-        }
-    }
-    func backdropAlphaFor(position: FloatingPanelPosition) -> CGFloat {
-        return 0.3
-    }
-}
-
-class RemovablePanelLandscapeLayout: FloatingPanelLayout {
-    var initialPosition: FloatingPanelPosition {
-        return .half
-    }
-    var supportedPositions: Set<FloatingPanelPosition> {
-        return [.half]
-    }
-    var bottomInteractionBuffer: CGFloat {
-        return 261.0 - 22.0
-    }
-    
-    func insetFor(position: FloatingPanelPosition) -> CGFloat? {
-        switch position {
-        case .half: return 261.0
-        default: return nil
-        }
-    }
-    func backdropAlphaFor(position: FloatingPanelPosition) -> CGFloat {
-        return 0.3
-    }
 }

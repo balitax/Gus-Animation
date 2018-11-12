@@ -22,15 +22,15 @@
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="36o-AI-3RN">
-                    <rect key="frame" x="18" y="21" width="35" height="22"/>
+                    <rect key="frame" x="10" y="21" width="35" height="22"/>
                     <constraints>
                         <constraint firstAttribute="width" constant="35" id="0HA-rw-Xp3"/>
                     </constraints>
                     <color key="tintColor" red="0.1529411765" green="0.23921568630000001" blue="0.32156862749999998" alpha="1" colorSpace="calibratedRGB"/>
-                    <state key="normal" image="right-arrow"/>
+                    <state key="normal" image="backGray"/>
                 </button>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Menu" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tjn-po-pm1">
-                    <rect key="frame" x="63" y="23.5" width="37.5" height="17"/>
+                    <rect key="frame" x="55" y="23.5" width="37.5" height="17"/>
                     <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="14"/>
                     <color key="textColor" red="0.1529411765" green="0.23921568630000001" blue="0.32156862749999998" alpha="1" colorSpace="calibratedRGB"/>
                     <nil key="highlightedColor"/>
@@ -49,7 +49,7 @@
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
             <constraints>
-                <constraint firstItem="36o-AI-3RN" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="18" id="9kM-vP-iD6"/>
+                <constraint firstItem="36o-AI-3RN" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="10" id="9kM-vP-iD6"/>
                 <constraint firstItem="LI1-w3-lwM" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="Tjn-po-pm1" secondAttribute="trailing" constant="18" id="LdY-Q9-RxE"/>
                 <constraint firstItem="yF5-kB-TJW" firstAttribute="trailing" secondItem="vUN-kp-3ea" secondAttribute="trailing" id="OrG-8K-PCh"/>
                 <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="LI1-w3-lwM" secondAttribute="trailing" constant="18" id="Pz4-L2-4bX"/>
@@ -66,7 +66,7 @@
         </view>
     </objects>
     <resources>
+        <image name="backGray" width="20" height="20"/>
         <image name="cari" width="20" height="20"/>
-        <image name="right-arrow" width="23" height="17"/>
     </resources>
 </document>

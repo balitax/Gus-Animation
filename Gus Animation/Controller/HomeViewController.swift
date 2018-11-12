@@ -23,10 +23,13 @@ class HomeViewController: BaseView, UITableViewDataSource, UITableViewDelegate, 
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        tableView.register(HeaderSectionCell.create(), forCellReuseIdentifier: "headerSection")
+        self.tableView.sectionHeaderHeight = 48
+        
         tableView.showsVerticalScrollIndicator = false
         
         self.parallaxHeader = GSParallaxHeader(frame: CGRect(x: 0, y: 0, width: self.view.bounds.width, height: 150))
-        self.parallaxHeader.imageView.image = UIImage(named: "gofood")
+        self.parallaxHeader.imageView.image = UIImage(named: "imgfood")
         self.tableView.tableHeaderView  = self.parallaxHeader
         
         let headerView = UIView(frame: self.tableView.tableHeaderView!.bounds)
@@ -71,6 +74,18 @@ class HomeViewController: BaseView, UITableViewDataSource, UITableViewDelegate, 
         self.addMainPanel(with: contentVC)
         mainPanelVC.move(to: .full, animated: true)
         
+    }
+    
+    func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
+        
+        let headerView = UIView.init(frame: CGRect.init(x: 0, y: 0, width: UIScreen.main.bounds.size.width, height: 48))
+
+        let headerCell = tableView.dequeueReusableCell(withIdentifier: "headerSection") as! HeaderSectionCell
+        headerView.backgroundColor = .white
+        headerCell.titleSection.text = "Aneka Makanan Dengan Harga 10 Ribuan"
+        
+        headerView.addSubview(headerCell)
+        return headerView
     }
     
     func addMainPanel(with contentVC: DetailViewController) {

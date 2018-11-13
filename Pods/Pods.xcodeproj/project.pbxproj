@@ -1,0 +1,1196 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0E0D7E0798B930554A6D5EC5ABF0BC46 /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 195F1FB71EF1CDC5E5AB947C70BE0654 /* SVProgressHUD.m */; };
+		12F276AB2BADE314F686C379177548E7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8D8B915FF40EB401BFF7A6C07CC4BAC /* Foundation.framework */; };
+		14158A98D3A6DB5A54BB33C141D105A0 /* AMRefresher-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B13235DBF8A0320CD89B6B1731AF9AAB /* AMRefresher-dummy.m */; };
+		141E7D60398C2D32FDF6FD0E2209F1A0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8D8B915FF40EB401BFF7A6C07CC4BAC /* Foundation.framework */; };
+		1FB1908FF5155F0FDC1B41C9FAD9E310 /* SVRadialGradientLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = D5FA7EDFEC9338A507A4F7227668BE6A /* SVRadialGradientLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2D748A50768750F4309AB3F10539E93D /* AMRefresher-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E50639348DE325C2287D257B021649E /* AMRefresher-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2E8631BA996316F3A312938A248F4AA1 /* Pods-Gus Animation-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F0DEE1B226008F9076A74D01E15C37DE /* Pods-Gus Animation-dummy.m */; };
+		4629B7E3151A6831654A54958DD956BC /* AMInfiniteScrolling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 459DE8606BF81A35D00F7A7BD65D4911 /* AMInfiniteScrolling.swift */; };
+		467D34F120DF2BFA42C9C7B971285583 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8D8B915FF40EB401BFF7A6C07CC4BAC /* Foundation.framework */; };
+		472E1748F0C06F0A004BB9FE7C2796C0 /* Pods-Gus AnimationUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DFBA4A36EF5285D0346E454E91C469F /* Pods-Gus AnimationUITests-dummy.m */; };
+		4B79A376DC6267DE5A1B12D1E2760C9B /* SVIndefiniteAnimatedView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A68D0595D8DA07556F799AAC5CC2320 /* SVIndefiniteAnimatedView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		53F3AC1EDEA1DD2FC12518A1667C6E4E /* SVIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = D7D5BCC77611722417176CC4C4327419 /* SVIndefiniteAnimatedView.m */; };
+		663A661E9D2340F2FC891CC78690C559 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A53654F6C69F2B1C06A517CAB5691730 /* UIKit.framework */; };
+		6D234D8598321CABBE36DC35D7CD193F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8D8B915FF40EB401BFF7A6C07CC4BAC /* Foundation.framework */; };
+		7A49A8A413ED78B86AAA60EFA4400FB7 /* AMRefresher.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF0C86A6F299B7AA755AFBB0EF8F6BD /* AMRefresher.swift */; };
+		871D5F75C1614888A320B18679DB5F53 /* Pods-Gus Animation-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3159443C86B9EB3724D41AAFB890831F /* Pods-Gus Animation-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8E95B0AEB3C8B849ACFBB70D708315E1 /* SVProgressHUD-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 25347167A395A8E776A20C78E8D487EF /* SVProgressHUD-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		94B708015D6F4371319246398E6F9968 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8D8B915FF40EB401BFF7A6C07CC4BAC /* Foundation.framework */; };
+		96C6E00336C8D2F35D92311E7A245735 /* Pods-Gus AnimationUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 74B04F03239CC4C7AAD886DFE0A01013 /* Pods-Gus AnimationUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A2D7E2D6EC1AAD29D62308030396AB62 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83F55B96F9FD27342C0F09BBB7DEE1AE /* QuartzCore.framework */; };
+		A4D25B7AECB05A607BA913E978B3DE86 /* SVProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = ECDAFE2E6C007170B026552C85E281E7 /* SVProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B3B8FA19ACAE40D42EA00D1A910A95C8 /* SVProgressAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 957D94210569FC364E97C46AB3C48BDD /* SVProgressAnimatedView.m */; };
+		B5B1ADF8D3A14EC9E86E85977E562F30 /* AMPullToRefresh.swift in Sources */ = {isa = PBXBuildFile; fileRef = E56EB7D258B1C7DE08C7B9B51A598619 /* AMPullToRefresh.swift */; };
+		B60BCB1A906A8025FF0A22EF63A48FDA /* SVRadialGradientLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 36A74E8DD90D941FA569E76703F424AC /* SVRadialGradientLayer.m */; };
+		BBBDCF6F4651E975DA08557FEE416976 /* SVProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 813612B087F5B72213B8AE29746E6574 /* SVProgressHUD-dummy.m */; };
+		BEE63EAEFCEC7FAB43F470B0FE5BB5A3 /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F82A6CD4334652576530161C1DA42FD2 /* SVProgressHUD.bundle */; };
+		D4A2DE3E13A35ED8663C59BC123F6F1B /* SVProgressAnimatedView.h in Headers */ = {isa = PBXBuildFile; fileRef = F91464468DCF53D0B80EF04BA1342931 /* SVProgressAnimatedView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FAA077B697EB0D29B10C4A0CA24216C9 /* Pods-Gus AnimationTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DD93157DF33BDEF0D9E8FDC797DDA4A /* Pods-Gus AnimationTests-dummy.m */; };
+		FB795A2E715AD9F6204DA3D7A57E0A56 /* Pods-Gus AnimationTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EE2A5AD4A033BE49743A2B4E44DBDDB6 /* Pods-Gus AnimationTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		309F26924F5EC341CDC767F1B00A365C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D0770287E63670D3C17F7E095284FF64;
+			remoteInfo = "Pods-Gus Animation";
+		};
+		6795333B863553BCC55C3DAA16A656F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BBC2D05C3D3F8B77DED7C8032B740F67;
+			remoteInfo = SVProgressHUD;
+		};
+		C3F9FAD417DE7054CF035A7812D47E5E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D0770287E63670D3C17F7E095284FF64;
+			remoteInfo = "Pods-Gus Animation";
+		};
+		EC0B31467F2C010201DBA172BF399187 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEF269888FA3E1E4A45D98B55F12F865;
+			remoteInfo = AMRefresher;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01CFEE0668396A21E007A4F496AF5F35 /* Pods-Gus AnimationTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Gus AnimationTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		04B5918ACE2D8AA983A5CAAB676AB864 /* Pods_Gus_Animation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Gus_Animation.framework; path = "Pods-Gus Animation.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C344399087CE4E412A5993364742797 /* Pods-Gus AnimationTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Gus AnimationTests.release.xcconfig"; sourceTree = "<group>"; };
+		195F1FB71EF1CDC5E5AB947C70BE0654 /* SVProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVProgressHUD.m; path = SVProgressHUD/SVProgressHUD.m; sourceTree = "<group>"; };
+		1C7A090D03110DFA410B1CEC928E138C /* SVProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-prefix.pch"; sourceTree = "<group>"; };
+		1E50639348DE325C2287D257B021649E /* AMRefresher-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AMRefresher-umbrella.h"; sourceTree = "<group>"; };
+		25347167A395A8E776A20C78E8D487EF /* SVProgressHUD-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-umbrella.h"; sourceTree = "<group>"; };
+		286EC803028D8CB23EB39F8E9D3DB252 /* Pods-Gus AnimationUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Gus AnimationUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		2DFBA4A36EF5285D0346E454E91C469F /* Pods-Gus AnimationUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Gus AnimationUITests-dummy.m"; sourceTree = "<group>"; };
+		2EF641207FDBE03CBE7FF9FB8724923D /* Pods-Gus Animation-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Gus Animation-frameworks.sh"; sourceTree = "<group>"; };
+		3159443C86B9EB3724D41AAFB890831F /* Pods-Gus Animation-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Gus Animation-umbrella.h"; sourceTree = "<group>"; };
+		36A74E8DD90D941FA569E76703F424AC /* SVRadialGradientLayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVRadialGradientLayer.m; path = SVProgressHUD/SVRadialGradientLayer.m; sourceTree = "<group>"; };
+		3B5BCA2703912C8CADE3951578F96E43 /* Pods-Gus Animation.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Gus Animation.modulemap"; sourceTree = "<group>"; };
+		459DE8606BF81A35D00F7A7BD65D4911 /* AMInfiniteScrolling.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AMInfiniteScrolling.swift; path = AMRefresher/AMInfiniteScrolling.swift; sourceTree = "<group>"; };
+		4A68D0595D8DA07556F799AAC5CC2320 /* SVIndefiniteAnimatedView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVIndefiniteAnimatedView.h; path = SVProgressHUD/SVIndefiniteAnimatedView.h; sourceTree = "<group>"; };
+		5523EB92EEBE9CCAAB03441B1CFFDFCD /* Pods-Gus AnimationUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Gus AnimationUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		5DD93157DF33BDEF0D9E8FDC797DDA4A /* Pods-Gus AnimationTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Gus AnimationTests-dummy.m"; sourceTree = "<group>"; };
+		5F14018DF47AA70EDB75B59902DD4452 /* Pods_Gus_AnimationTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Gus_AnimationTests.framework; path = "Pods-Gus AnimationTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		61BBA0C229D1AD1CEC47B9BF7B958EF1 /* Pods-Gus AnimationUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Gus AnimationUITests.release.xcconfig"; sourceTree = "<group>"; };
+		61D5BCF41C8C4235C93A352595D12CCC /* SVProgressHUD.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SVProgressHUD.modulemap; sourceTree = "<group>"; };
+		66F2CBF4113EBB3C052B4B9D0F44B018 /* SVProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SVProgressHUD.framework; path = SVProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		74B04F03239CC4C7AAD886DFE0A01013 /* Pods-Gus AnimationUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Gus AnimationUITests-umbrella.h"; sourceTree = "<group>"; };
+		76D10A84BE367189B53C702441C61348 /* AMRefresher.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AMRefresher.framework; path = AMRefresher.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A0869BC4BFD94B51805DC689FE69445 /* Pods-Gus AnimationUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Gus AnimationUITests.modulemap"; sourceTree = "<group>"; };
+		7AA52233F2AE661419FF38D850CC6BBE /* Pods_Gus_AnimationUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Gus_AnimationUITests.framework; path = "Pods-Gus AnimationUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		813612B087F5B72213B8AE29746E6574 /* SVProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SVProgressHUD-dummy.m"; sourceTree = "<group>"; };
+		83650D3F4B093496CEB06450D75198DF /* AMRefresher.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AMRefresher.modulemap; sourceTree = "<group>"; };
+		83F55B96F9FD27342C0F09BBB7DEE1AE /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		8C53FB78A7871DCAB87B4A41B49030C6 /* Pods-Gus Animation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Gus Animation.release.xcconfig"; sourceTree = "<group>"; };
+		9048C0CF7F680A644F172518255A0369 /* AMRefresher-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AMRefresher-Info.plist"; sourceTree = "<group>"; };
+		957D94210569FC364E97C46AB3C48BDD /* SVProgressAnimatedView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVProgressAnimatedView.m; path = SVProgressHUD/SVProgressAnimatedView.m; sourceTree = "<group>"; };
+		A53654F6C69F2B1C06A517CAB5691730 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		AAD1764CFDDC2E49D49F81FB813D2005 /* Pods-Gus AnimationUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Gus AnimationUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		ACF0C86A6F299B7AA755AFBB0EF8F6BD /* AMRefresher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AMRefresher.swift; path = AMRefresher/AMRefresher.swift; sourceTree = "<group>"; };
+		B13235DBF8A0320CD89B6B1731AF9AAB /* AMRefresher-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AMRefresher-dummy.m"; sourceTree = "<group>"; };
+		B36AB396275697EEE1A5B13BA8A38FE3 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B47ACC430959D96976178AB1C344C47E /* SVProgressHUD.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SVProgressHUD.xcconfig; sourceTree = "<group>"; };
+		B48B18924A93568D8787AAD7B073C2D4 /* Pods-Gus Animation-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Gus Animation-acknowledgements.plist"; sourceTree = "<group>"; };
+		B8D8B915FF40EB401BFF7A6C07CC4BAC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		BCED93E74FE6B870D65CC6381CB48B17 /* Pods-Gus Animation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Gus Animation.debug.xcconfig"; sourceTree = "<group>"; };
+		BD7C8749287F8CCBE80F94E5E30445CE /* Pods-Gus AnimationTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Gus AnimationTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		BF3EABC66C423A74DC5D662C0460BCE5 /* AMRefresher.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AMRefresher.xcconfig; sourceTree = "<group>"; };
+		C372894CBD8E98459BFE9C45DD3F8207 /* Pods-Gus AnimationUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Gus AnimationUITests-Info.plist"; sourceTree = "<group>"; };
+		CA6DD5272C2B12270C0CF90873CD15DD /* Pods-Gus AnimationTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Gus AnimationTests.modulemap"; sourceTree = "<group>"; };
+		D23ACC8E2C6F082B1E9A47478A7F83DD /* AMRefresher-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AMRefresher-prefix.pch"; sourceTree = "<group>"; };
+		D47BC38B4D5D34E1BD90020CD3C687EF /* Pods-Gus Animation-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Gus Animation-Info.plist"; sourceTree = "<group>"; };
+		D5FA7EDFEC9338A507A4F7227668BE6A /* SVRadialGradientLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVRadialGradientLayer.h; path = SVProgressHUD/SVRadialGradientLayer.h; sourceTree = "<group>"; };
+		D7D5BCC77611722417176CC4C4327419 /* SVIndefiniteAnimatedView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVIndefiniteAnimatedView.m; path = SVProgressHUD/SVIndefiniteAnimatedView.m; sourceTree = "<group>"; };
+		E4412F0D8A97D05D71BD372F8CA49CB4 /* SVProgressHUD-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SVProgressHUD-Info.plist"; sourceTree = "<group>"; };
+		E56EB7D258B1C7DE08C7B9B51A598619 /* AMPullToRefresh.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AMPullToRefresh.swift; path = AMRefresher/AMPullToRefresh.swift; sourceTree = "<group>"; };
+		E6E078E67436EE4CF20A504D98BC75CA /* Pods-Gus Animation-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Gus Animation-acknowledgements.markdown"; sourceTree = "<group>"; };
+		ECDAFE2E6C007170B026552C85E281E7 /* SVProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVProgressHUD.h; path = SVProgressHUD/SVProgressHUD.h; sourceTree = "<group>"; };
+		EE2A5AD4A033BE49743A2B4E44DBDDB6 /* Pods-Gus AnimationTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Gus AnimationTests-umbrella.h"; sourceTree = "<group>"; };
+		F0DEE1B226008F9076A74D01E15C37DE /* Pods-Gus Animation-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Gus Animation-dummy.m"; sourceTree = "<group>"; };
+		F2E4F52CB8F3141A103E029978E38178 /* Pods-Gus AnimationTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Gus AnimationTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F4A60B131E641D641B0DD43839073994 /* Pods-Gus AnimationTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Gus AnimationTests-Info.plist"; sourceTree = "<group>"; };
+		F82A6CD4334652576530161C1DA42FD2 /* SVProgressHUD.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = SVProgressHUD.bundle; path = SVProgressHUD/SVProgressHUD.bundle; sourceTree = "<group>"; };
+		F91464468DCF53D0B80EF04BA1342931 /* SVProgressAnimatedView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVProgressAnimatedView.h; path = SVProgressHUD/SVProgressAnimatedView.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0AF3BD6A5BEA0B161073E6749C9FAD85 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				141E7D60398C2D32FDF6FD0E2209F1A0 /* Foundation.framework in Frameworks */,
+				663A661E9D2340F2FC891CC78690C559 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EC81232505BF960DCBA33C8632F38D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D234D8598321CABBE36DC35D7CD193F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C942826CD94C0BCA3D93BD805B5FB22 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94B708015D6F4371319246398E6F9968 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5ABC6CFCEDD8BFE5518DD88265FE55D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				467D34F120DF2BFA42C9C7B971285583 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D294144AB4C75F612CA5207604A65A9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12F276AB2BADE314F686C379177548E7 /* Foundation.framework in Frameworks */,
+				A2D7E2D6EC1AAD29D62308030396AB62 /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0D7A87A398F0D91F1E1B327DC5AD954E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				B8D8B915FF40EB401BFF7A6C07CC4BAC /* Foundation.framework */,
+				83F55B96F9FD27342C0F09BBB7DEE1AE /* QuartzCore.framework */,
+				A53654F6C69F2B1C06A517CAB5691730 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		122DA2E5084A4393C29BE363C764795C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0D7A87A398F0D91F1E1B327DC5AD954E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		161C2EBDDAE848FF5829DC8290DCE5A7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F82A6CD4334652576530161C1DA42FD2 /* SVProgressHUD.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		4233AB8818B9B9324D62495025DB8061 /* AMRefresher */ = {
+			isa = PBXGroup;
+			children = (
+				459DE8606BF81A35D00F7A7BD65D4911 /* AMInfiniteScrolling.swift */,
+				E56EB7D258B1C7DE08C7B9B51A598619 /* AMPullToRefresh.swift */,
+				ACF0C86A6F299B7AA755AFBB0EF8F6BD /* AMRefresher.swift */,
+				9730D83FF478EF384F46992BF11F630F /* Support Files */,
+			);
+			name = AMRefresher;
+			path = AMRefresher;
+			sourceTree = "<group>";
+		};
+		45316C5FF63530513487CF4F8F83798B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4233AB8818B9B9324D62495025DB8061 /* AMRefresher */,
+				856AD18AA699D821F2B9DA29109BD78E /* SVProgressHUD */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		47BDEF739FA2FE5B4DF817872F64422C /* Pods-Gus Animation */ = {
+			isa = PBXGroup;
+			children = (
+				3B5BCA2703912C8CADE3951578F96E43 /* Pods-Gus Animation.modulemap */,
+				E6E078E67436EE4CF20A504D98BC75CA /* Pods-Gus Animation-acknowledgements.markdown */,
+				B48B18924A93568D8787AAD7B073C2D4 /* Pods-Gus Animation-acknowledgements.plist */,
+				F0DEE1B226008F9076A74D01E15C37DE /* Pods-Gus Animation-dummy.m */,
+				2EF641207FDBE03CBE7FF9FB8724923D /* Pods-Gus Animation-frameworks.sh */,
+				D47BC38B4D5D34E1BD90020CD3C687EF /* Pods-Gus Animation-Info.plist */,
+				3159443C86B9EB3724D41AAFB890831F /* Pods-Gus Animation-umbrella.h */,
+				BCED93E74FE6B870D65CC6381CB48B17 /* Pods-Gus Animation.debug.xcconfig */,
+				8C53FB78A7871DCAB87B4A41B49030C6 /* Pods-Gus Animation.release.xcconfig */,
+			);
+			name = "Pods-Gus Animation";
+			path = "Target Support Files/Pods-Gus Animation";
+			sourceTree = "<group>";
+		};
+		605406F57151580E4B8C3428B6EB127C /* Pods-Gus AnimationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7A0869BC4BFD94B51805DC689FE69445 /* Pods-Gus AnimationUITests.modulemap */,
+				AAD1764CFDDC2E49D49F81FB813D2005 /* Pods-Gus AnimationUITests-acknowledgements.markdown */,
+				5523EB92EEBE9CCAAB03441B1CFFDFCD /* Pods-Gus AnimationUITests-acknowledgements.plist */,
+				2DFBA4A36EF5285D0346E454E91C469F /* Pods-Gus AnimationUITests-dummy.m */,
+				C372894CBD8E98459BFE9C45DD3F8207 /* Pods-Gus AnimationUITests-Info.plist */,
+				74B04F03239CC4C7AAD886DFE0A01013 /* Pods-Gus AnimationUITests-umbrella.h */,
+				286EC803028D8CB23EB39F8E9D3DB252 /* Pods-Gus AnimationUITests.debug.xcconfig */,
+				61BBA0C229D1AD1CEC47B9BF7B958EF1 /* Pods-Gus AnimationUITests.release.xcconfig */,
+			);
+			name = "Pods-Gus AnimationUITests";
+			path = "Target Support Files/Pods-Gus AnimationUITests";
+			sourceTree = "<group>";
+		};
+		713E3646CA7D5C5A7C87270F979505C4 /* Pods-Gus AnimationTests */ = {
+			isa = PBXGroup;
+			children = (
+				CA6DD5272C2B12270C0CF90873CD15DD /* Pods-Gus AnimationTests.modulemap */,
+				BD7C8749287F8CCBE80F94E5E30445CE /* Pods-Gus AnimationTests-acknowledgements.markdown */,
+				01CFEE0668396A21E007A4F496AF5F35 /* Pods-Gus AnimationTests-acknowledgements.plist */,
+				5DD93157DF33BDEF0D9E8FDC797DDA4A /* Pods-Gus AnimationTests-dummy.m */,
+				F4A60B131E641D641B0DD43839073994 /* Pods-Gus AnimationTests-Info.plist */,
+				EE2A5AD4A033BE49743A2B4E44DBDDB6 /* Pods-Gus AnimationTests-umbrella.h */,
+				F2E4F52CB8F3141A103E029978E38178 /* Pods-Gus AnimationTests.debug.xcconfig */,
+				0C344399087CE4E412A5993364742797 /* Pods-Gus AnimationTests.release.xcconfig */,
+			);
+			name = "Pods-Gus AnimationTests";
+			path = "Target Support Files/Pods-Gus AnimationTests";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				B36AB396275697EEE1A5B13BA8A38FE3 /* Podfile */,
+				122DA2E5084A4393C29BE363C764795C /* Frameworks */,
+				45316C5FF63530513487CF4F8F83798B /* Pods */,
+				F5E02ACFDE334A2F9682784171561C71 /* Products */,
+				C9735CF4BC29889F34579BBE5F017F9E /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		856AD18AA699D821F2B9DA29109BD78E /* SVProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				4A68D0595D8DA07556F799AAC5CC2320 /* SVIndefiniteAnimatedView.h */,
+				D7D5BCC77611722417176CC4C4327419 /* SVIndefiniteAnimatedView.m */,
+				F91464468DCF53D0B80EF04BA1342931 /* SVProgressAnimatedView.h */,
+				957D94210569FC364E97C46AB3C48BDD /* SVProgressAnimatedView.m */,
+				ECDAFE2E6C007170B026552C85E281E7 /* SVProgressHUD.h */,
+				195F1FB71EF1CDC5E5AB947C70BE0654 /* SVProgressHUD.m */,
+				D5FA7EDFEC9338A507A4F7227668BE6A /* SVRadialGradientLayer.h */,
+				36A74E8DD90D941FA569E76703F424AC /* SVRadialGradientLayer.m */,
+				161C2EBDDAE848FF5829DC8290DCE5A7 /* Resources */,
+				C7422F5DC66FB9D900C643B1DC90DACE /* Support Files */,
+			);
+			name = SVProgressHUD;
+			path = SVProgressHUD;
+			sourceTree = "<group>";
+		};
+		9730D83FF478EF384F46992BF11F630F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				83650D3F4B093496CEB06450D75198DF /* AMRefresher.modulemap */,
+				BF3EABC66C423A74DC5D662C0460BCE5 /* AMRefresher.xcconfig */,
+				B13235DBF8A0320CD89B6B1731AF9AAB /* AMRefresher-dummy.m */,
+				9048C0CF7F680A644F172518255A0369 /* AMRefresher-Info.plist */,
+				D23ACC8E2C6F082B1E9A47478A7F83DD /* AMRefresher-prefix.pch */,
+				1E50639348DE325C2287D257B021649E /* AMRefresher-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/AMRefresher";
+			sourceTree = "<group>";
+		};
+		C7422F5DC66FB9D900C643B1DC90DACE /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				61D5BCF41C8C4235C93A352595D12CCC /* SVProgressHUD.modulemap */,
+				B47ACC430959D96976178AB1C344C47E /* SVProgressHUD.xcconfig */,
+				813612B087F5B72213B8AE29746E6574 /* SVProgressHUD-dummy.m */,
+				E4412F0D8A97D05D71BD372F8CA49CB4 /* SVProgressHUD-Info.plist */,
+				1C7A090D03110DFA410B1CEC928E138C /* SVProgressHUD-prefix.pch */,
+				25347167A395A8E776A20C78E8D487EF /* SVProgressHUD-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SVProgressHUD";
+			sourceTree = "<group>";
+		};
+		C9735CF4BC29889F34579BBE5F017F9E /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				47BDEF739FA2FE5B4DF817872F64422C /* Pods-Gus Animation */,
+				713E3646CA7D5C5A7C87270F979505C4 /* Pods-Gus AnimationTests */,
+				605406F57151580E4B8C3428B6EB127C /* Pods-Gus AnimationUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		F5E02ACFDE334A2F9682784171561C71 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				76D10A84BE367189B53C702441C61348 /* AMRefresher.framework */,
+				04B5918ACE2D8AA983A5CAAB676AB864 /* Pods_Gus_Animation.framework */,
+				5F14018DF47AA70EDB75B59902DD4452 /* Pods_Gus_AnimationTests.framework */,
+				7AA52233F2AE661419FF38D850CC6BBE /* Pods_Gus_AnimationUITests.framework */,
+				66F2CBF4113EBB3C052B4B9D0F44B018 /* SVProgressHUD.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		011A5ABD8D91CFD3CBD9C84CC0BFC6A3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				871D5F75C1614888A320B18679DB5F53 /* Pods-Gus Animation-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		287D74B40193AD7F7F12705ED5805AD1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B79A376DC6267DE5A1B12D1E2760C9B /* SVIndefiniteAnimatedView.h in Headers */,
+				D4A2DE3E13A35ED8663C59BC123F6F1B /* SVProgressAnimatedView.h in Headers */,
+				8E95B0AEB3C8B849ACFBB70D708315E1 /* SVProgressHUD-umbrella.h in Headers */,
+				A4D25B7AECB05A607BA913E978B3DE86 /* SVProgressHUD.h in Headers */,
+				1FB1908FF5155F0FDC1B41C9FAD9E310 /* SVRadialGradientLayer.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63BDA909181D6C3A33C3DBBB15A8C819 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96C6E00336C8D2F35D92311E7A245735 /* Pods-Gus AnimationUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		984F47A3DACB50856702C4D5CA852EF7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB795A2E715AD9F6204DA3D7A57E0A56 /* Pods-Gus AnimationTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E79BDFA1A011E2BB945D7137523EF52E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D748A50768750F4309AB3F10539E93D /* AMRefresher-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2DB545E55E427EFA206EBC752FD991AC /* Pods-Gus AnimationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD8F0E1644AB34ABDC5C463DAFF5A44E /* Build configuration list for PBXNativeTarget "Pods-Gus AnimationUITests" */;
+			buildPhases = (
+				63BDA909181D6C3A33C3DBBB15A8C819 /* Headers */,
+				E9F7DFC091ABE272EE92DB0E0FF31A5F /* Sources */,
+				4EC81232505BF960DCBA33C8632F38D7 /* Frameworks */,
+				6DAF4980D06D6B32C843FC0FC8B19272 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF8D77E12534DECBFBD5CBB1C2E8B996 /* PBXTargetDependency */,
+			);
+			name = "Pods-Gus AnimationUITests";
+			productName = "Pods-Gus AnimationUITests";
+			productReference = 7AA52233F2AE661419FF38D850CC6BBE /* Pods_Gus_AnimationUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		AED8136ADA846896610D2269E2DB08BD /* Pods-Gus AnimationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F82D32F11BA53793FFF3BDB896526562 /* Build configuration list for PBXNativeTarget "Pods-Gus AnimationTests" */;
+			buildPhases = (
+				984F47A3DACB50856702C4D5CA852EF7 /* Headers */,
+				9ABD2AC4C3EB85136A8AB1DEF5B62C4A /* Sources */,
+				5C942826CD94C0BCA3D93BD805B5FB22 /* Frameworks */,
+				7D35B96E0852EFA473D62C57B6207762 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AEF11A64A49F297DCF9BFD5A1A0D52F9 /* PBXTargetDependency */,
+			);
+			name = "Pods-Gus AnimationTests";
+			productName = "Pods-Gus AnimationTests";
+			productReference = 5F14018DF47AA70EDB75B59902DD4452 /* Pods_Gus_AnimationTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BBC2D05C3D3F8B77DED7C8032B740F67 /* SVProgressHUD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB9F5930C2C8448779EACC85827C1FDF /* Build configuration list for PBXNativeTarget "SVProgressHUD" */;
+			buildPhases = (
+				287D74B40193AD7F7F12705ED5805AD1 /* Headers */,
+				CAFD19364E521E81AC40A87F1D7CFF3A /* Sources */,
+				D294144AB4C75F612CA5207604A65A9A /* Frameworks */,
+				2F60171B54E2B1A11D93550B7786E411 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SVProgressHUD;
+			productName = SVProgressHUD;
+			productReference = 66F2CBF4113EBB3C052B4B9D0F44B018 /* SVProgressHUD.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CEF269888FA3E1E4A45D98B55F12F865 /* AMRefresher */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D180C3EAAEBA2054D77A5D7C05B8DF23 /* Build configuration list for PBXNativeTarget "AMRefresher" */;
+			buildPhases = (
+				E79BDFA1A011E2BB945D7137523EF52E /* Headers */,
+				920E5802C6886B4F95AEC219B9FDB1F3 /* Sources */,
+				0AF3BD6A5BEA0B161073E6749C9FAD85 /* Frameworks */,
+				A25BEA235E7DA12B3073A194D4530B64 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AMRefresher;
+			productName = AMRefresher;
+			productReference = 76D10A84BE367189B53C702441C61348 /* AMRefresher.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D0770287E63670D3C17F7E095284FF64 /* Pods-Gus Animation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 200F88129255C25A514C936A4498024E /* Build configuration list for PBXNativeTarget "Pods-Gus Animation" */;
+			buildPhases = (
+				011A5ABD8D91CFD3CBD9C84CC0BFC6A3 /* Headers */,
+				E7D249677B68F89875A9125A9A0F821F /* Sources */,
+				A5ABC6CFCEDD8BFE5518DD88265FE55D /* Frameworks */,
+				C495A59BACF32C66D333D46365A457C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5D5BED067BC0BEF82CE7A0CDAC576DEF /* PBXTargetDependency */,
+				24F25567F04DD88AF591D15C4B8B26A4 /* PBXTargetDependency */,
+			);
+			name = "Pods-Gus Animation";
+			productName = "Pods-Gus Animation";
+			productReference = 04B5918ACE2D8AA983A5CAAB676AB864 /* Pods_Gus_Animation.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = F5E02ACFDE334A2F9682784171561C71 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEF269888FA3E1E4A45D98B55F12F865 /* AMRefresher */,
+				D0770287E63670D3C17F7E095284FF64 /* Pods-Gus Animation */,
+				AED8136ADA846896610D2269E2DB08BD /* Pods-Gus AnimationTests */,
+				2DB545E55E427EFA206EBC752FD991AC /* Pods-Gus AnimationUITests */,
+				BBC2D05C3D3F8B77DED7C8032B740F67 /* SVProgressHUD */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2F60171B54E2B1A11D93550B7786E411 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEE63EAEFCEC7FAB43F470B0FE5BB5A3 /* SVProgressHUD.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DAF4980D06D6B32C843FC0FC8B19272 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D35B96E0852EFA473D62C57B6207762 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A25BEA235E7DA12B3073A194D4530B64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C495A59BACF32C66D333D46365A457C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		920E5802C6886B4F95AEC219B9FDB1F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4629B7E3151A6831654A54958DD956BC /* AMInfiniteScrolling.swift in Sources */,
+				B5B1ADF8D3A14EC9E86E85977E562F30 /* AMPullToRefresh.swift in Sources */,
+				14158A98D3A6DB5A54BB33C141D105A0 /* AMRefresher-dummy.m in Sources */,
+				7A49A8A413ED78B86AAA60EFA4400FB7 /* AMRefresher.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9ABD2AC4C3EB85136A8AB1DEF5B62C4A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAA077B697EB0D29B10C4A0CA24216C9 /* Pods-Gus AnimationTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAFD19364E521E81AC40A87F1D7CFF3A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53F3AC1EDEA1DD2FC12518A1667C6E4E /* SVIndefiniteAnimatedView.m in Sources */,
+				B3B8FA19ACAE40D42EA00D1A910A95C8 /* SVProgressAnimatedView.m in Sources */,
+				BBBDCF6F4651E975DA08557FEE416976 /* SVProgressHUD-dummy.m in Sources */,
+				0E0D7E0798B930554A6D5EC5ABF0BC46 /* SVProgressHUD.m in Sources */,
+				B60BCB1A906A8025FF0A22EF63A48FDA /* SVRadialGradientLayer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7D249677B68F89875A9125A9A0F821F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E8631BA996316F3A312938A248F4AA1 /* Pods-Gus Animation-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9F7DFC091ABE272EE92DB0E0FF31A5F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				472E1748F0C06F0A004BB9FE7C2796C0 /* Pods-Gus AnimationUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		24F25567F04DD88AF591D15C4B8B26A4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SVProgressHUD;
+			target = BBC2D05C3D3F8B77DED7C8032B740F67 /* SVProgressHUD */;
+			targetProxy = 6795333B863553BCC55C3DAA16A656F4 /* PBXContainerItemProxy */;
+		};
+		5D5BED067BC0BEF82CE7A0CDAC576DEF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AMRefresher;
+			target = CEF269888FA3E1E4A45D98B55F12F865 /* AMRefresher */;
+			targetProxy = EC0B31467F2C010201DBA172BF399187 /* PBXContainerItemProxy */;
+		};
+		AEF11A64A49F297DCF9BFD5A1A0D52F9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Gus Animation";
+			target = D0770287E63670D3C17F7E095284FF64 /* Pods-Gus Animation */;
+			targetProxy = 309F26924F5EC341CDC767F1B00A365C /* PBXContainerItemProxy */;
+		};
+		CF8D77E12534DECBFBD5CBB1C2E8B996 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Gus Animation";
+			target = D0770287E63670D3C17F7E095284FF64 /* Pods-Gus Animation */;
+			targetProxy = C3F9FAD417DE7054CF035A7812D47E5E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		08B0394D5F17A9F046DC0719C25BA452 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		0A9118EE5971F5553EABB57D0C64D127 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 286EC803028D8CB23EB39F8E9D3DB252 /* Pods-Gus AnimationUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Gus AnimationUITests/Pods-Gus AnimationUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Gus AnimationUITests/Pods-Gus AnimationUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7136A585B9D1F0088099FB7142F8D436 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF3EABC66C423A74DC5D662C0460BCE5 /* AMRefresher.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AMRefresher/AMRefresher-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AMRefresher/AMRefresher-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/AMRefresher/AMRefresher.modulemap";
+				PRODUCT_MODULE_NAME = AMRefresher;
+				PRODUCT_NAME = AMRefresher;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7F60B8B263DF273D5DE19EF8755A344D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F2E4F52CB8F3141A103E029978E38178 /* Pods-Gus AnimationTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Gus AnimationTests/Pods-Gus AnimationTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Gus AnimationTests/Pods-Gus AnimationTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8E27D0D09A9B584C7F23FB8026D9CB96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B47ACC430959D96976178AB1C344C47E /* SVProgressHUD.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SVProgressHUD/SVProgressHUD-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SVProgressHUD/SVProgressHUD-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SVProgressHUD/SVProgressHUD.modulemap";
+				PRODUCT_MODULE_NAME = SVProgressHUD;
+				PRODUCT_NAME = SVProgressHUD;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9655FDAE2374DADE1D6526F93B83520C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BCED93E74FE6B870D65CC6381CB48B17 /* Pods-Gus Animation.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Gus Animation/Pods-Gus Animation-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Gus Animation/Pods-Gus Animation.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9875DD108DB1CDC27F6DF5799F065B12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF3EABC66C423A74DC5D662C0460BCE5 /* AMRefresher.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AMRefresher/AMRefresher-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AMRefresher/AMRefresher-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/AMRefresher/AMRefresher.modulemap";
+				PRODUCT_MODULE_NAME = AMRefresher;
+				PRODUCT_NAME = AMRefresher;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A666D416583982F7FC7E56B9DAA66C24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C53FB78A7871DCAB87B4A41B49030C6 /* Pods-Gus Animation.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Gus Animation/Pods-Gus Animation-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Gus Animation/Pods-Gus Animation.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CBDEF831F8DC0688C3616ACB93B7F5A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61BBA0C229D1AD1CEC47B9BF7B958EF1 /* Pods-Gus AnimationUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Gus AnimationUITests/Pods-Gus AnimationUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Gus AnimationUITests/Pods-Gus AnimationUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E82C56363775B4EF468FF2AD9A2F5414 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		F34FCBC0F0500883D931BC6365E6BE5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C344399087CE4E412A5993364742797 /* Pods-Gus AnimationTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Gus AnimationTests/Pods-Gus AnimationTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Gus AnimationTests/Pods-Gus AnimationTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F8D6EF932D9E84CDD30598AEDE6199EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B47ACC430959D96976178AB1C344C47E /* SVProgressHUD.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SVProgressHUD/SVProgressHUD-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SVProgressHUD/SVProgressHUD-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SVProgressHUD/SVProgressHUD.modulemap";
+				PRODUCT_MODULE_NAME = SVProgressHUD;
+				PRODUCT_NAME = SVProgressHUD;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		200F88129255C25A514C936A4498024E /* Build configuration list for PBXNativeTarget "Pods-Gus Animation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9655FDAE2374DADE1D6526F93B83520C /* Debug */,
+				A666D416583982F7FC7E56B9DAA66C24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08B0394D5F17A9F046DC0719C25BA452 /* Debug */,
+				E82C56363775B4EF468FF2AD9A2F5414 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB9F5930C2C8448779EACC85827C1FDF /* Build configuration list for PBXNativeTarget "SVProgressHUD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E27D0D09A9B584C7F23FB8026D9CB96 /* Debug */,
+				F8D6EF932D9E84CDD30598AEDE6199EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D180C3EAAEBA2054D77A5D7C05B8DF23 /* Build configuration list for PBXNativeTarget "AMRefresher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9875DD108DB1CDC27F6DF5799F065B12 /* Debug */,
+				7136A585B9D1F0088099FB7142F8D436 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F82D32F11BA53793FFF3BDB896526562 /* Build configuration list for PBXNativeTarget "Pods-Gus AnimationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F60B8B263DF273D5DE19EF8755A344D /* Debug */,
+				F34FCBC0F0500883D931BC6365E6BE5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD8F0E1644AB34ABDC5C463DAFF5A44E /* Build configuration list for PBXNativeTarget "Pods-Gus AnimationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A9118EE5971F5553EABB57D0C64D127 /* Debug */,
+				CBDEF831F8DC0688C3616ACB93B7F5A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

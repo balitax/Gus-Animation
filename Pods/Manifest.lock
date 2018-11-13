@@ -1,0 +1,20 @@
+PODS:
+  - AMRefresher (1.0.0)
+  - SVProgressHUD (2.2.5)
+
+DEPENDENCIES:
+  - AMRefresher
+  - SVProgressHUD
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AMRefresher
+    - SVProgressHUD
+
+SPEC CHECKSUMS:
+  AMRefresher: fb97665028a38eba36707f3b106593e6826bc31c
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+
+PODFILE CHECKSUM: e54f250002d995800bbc4e8de0fa45708a8fe2b0
+
+COCOAPODS: 1.6.0.beta.2

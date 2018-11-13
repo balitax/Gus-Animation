@@ -7,6 +7,8 @@
 //
 
 import UIKit
+import AMRefresher
+import SVProgressHUD
 
 class HomeViewController: BaseView, UITableViewDataSource, UITableViewDelegate, FloatingPanelControllerDelegate {
 
@@ -19,13 +21,65 @@ class HomeViewController: BaseView, UITableViewDataSource, UITableViewDelegate, 
     
     var mainPanelVC: FloatingPanelController!
     
+    var numRows = 0 {
+        didSet {
+            self.isloaded = true
+            tableView.reloadData()
+        }
+    }
+    
+    private let pageSize = 5
+    var isloaded = false
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
         self.tableView.sectionHeaderHeight = 48
-        
         tableView.showsVerticalScrollIndicator = false
         
+        self.makeNavView()
+        
+        self.tableView.am.addPullToRefresh { [unowned self] in
+            SVProgressHUD.show()
+            self.fetchDataFromStart(completion: {
+                self.numRows = 1
+                self.addHeader()
+                self.tableView.am.pullToRefreshView?.stopRefreshing()
+                SVProgressHUD.dismiss()
+            })
+        }
+        
+        //Adding Infinite Scrolling
+        self.tableView.am.addInfiniteScrolling { [unowned self] in
+            self.fetchMoreData(completion: {
+                if self.numRows != self.pageSize {
+                    self.numRows += 1
+                    self.tableView.am.infiniteScrollingView?.stopRefreshing()
+                } else {
+                    self.showNotificationFire()
+                    self.tableView.am.infiniteScrollingView?.stopRefreshing()
+                    self.tableView.am.infiniteScrollingView?.hideInfiniteScrollingView()
+                }
+            })
+        }
+        
+        tableView.am.pullToRefreshView?.trigger()
+        
+    }
+    
+    func fetchDataFromStart(completion handler:@escaping ()->Void) {
+        DispatchQueue.main.asyncAfter(deadline: .now() + 3) {
+            handler()
+        }
+    }
+    
+    func fetchMoreData(completion handler:@escaping ()->Void) {
+        DispatchQueue.main.asyncAfter(deadline: .now() + 2) {
+            handler()
+        }
+    }
+    
+    func addHeader() {
         self.parallaxHeader = GSParallaxHeader(frame: CGRect(x: 0, y: 0, width: self.view.bounds.width, height: 150))
         self.parallaxHeader.imageView.image = UIImage(named: "imgfood")
         self.tableView.tableHeaderView  = self.parallaxHeader
@@ -33,8 +87,6 @@ class HomeViewController: BaseView, UITableViewDataSource, UITableViewDelegate, 
         let headerView = UIView(frame: self.tableView.tableHeaderView!.bounds)
         headerView.height -= 80
         headerHeight = headerView.height
-        
-        self.makeNavView()
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -54,23 +106,17 @@ class HomeViewController: BaseView, UITableViewDataSource, UITableViewDelegate, 
     }
     
     func numberOfSections(in tableView: UITableView) -> Int {
-        return 4
+        return 1
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        if section % 2 == 0 {
-            return 10
-        } else {
-            return 10
-        }
+        return numRows
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
         let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath) as! HomeViewCell
-        
         cell.buildMenu()
-        
         return cell
     }
     
@@ -83,19 +129,27 @@ class HomeViewController: BaseView, UITableViewDataSource, UITableViewDelegate, 
     }
     
     func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
-        let headerView = UIView(frame: CGRect.init(x: 0, y: 0, width: UIScreen.main.bounds.size.width, height: 48))
-        headerView.backgroundColor = UIColor.white
-        
-        let sectionHeader = HeaderSection(frame: headerView.bounds)
-        sectionHeader.sectionTitle.text = "Aneka Makanan 10 Ribuan"
-        
-        headerView.addSubview(sectionHeader)
-        
-        return headerView
+        if isloaded {
+            let headerView = UIView(frame: CGRect.init(x: 0, y: 0, width: UIScreen.main.bounds.size.width, height: 48))
+            headerView.backgroundColor = UIColor.white
+            
+            let sectionHeader = HeaderSection(frame: headerView.bounds)
+            sectionHeader.sectionTitle.text = "Aneka Makanan 10 Ribuan"
+            
+            headerView.addSubview(sectionHeader)
+            
+            return headerView
+        } else {
+            return nil
+        }
     }
-    
+
     func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
-        return 48
+        if isloaded {
+            return 48
+        } else {
+            return 0
+        }
     }
     
     func addMainPanel(with contentVC: DetailViewController) {
@@ -119,42 +173,54 @@ class HomeViewController: BaseView, UITableViewDataSource, UITableViewDelegate, 
     }
     
     func scrollViewDidScroll(_ scrollView: UIScrollView) {
-        let headerView = self.tableView.tableHeaderView as! GSParallaxHeader
-        headerView.scrollViewDidScroll(scrollView: scrollView)
-        
-        let yOffset = scrollView.contentOffset.y
-        if yOffset < (headerHeight - navView.height) {
-            let alpha = yOffset / (headerHeight - navView.height)
+        if isloaded  {
+            let headerView = self.tableView.tableHeaderView as! GSParallaxHeader
+            headerView.scrollViewDidScroll(scrollView: scrollView)
             
-            UIView.animate(withDuration: 0.1, delay: 0.0
-                , options: .curveLinear, animations: {
+            let yOffset = scrollView.contentOffset.y
+            if yOffset < (headerHeight - navView.height) {
+                let alpha = yOffset / (headerHeight - navView.height)
+                
+                UIView.animate(withDuration: 0.1, delay: 0.0
+                    , options: .curveLinear, animations: {
+                        
+                        self.navView.backgroundColor = UIColor.RGB_COLOR(255/255, g: 255/255, b: 255/255, alpha: alpha)
+                        self.navView.frame.origin.y = -64
+                        self.navView.navigationTitle.alpha = alpha
+                        
+                }) { completed in
                     
-                    self.navView.backgroundColor = UIColor.RGB_COLOR(255/255, g: 255/255, b: 255/255, alpha: alpha)
-                    self.navView.frame.origin.y = -64
-                    self.navView.navigationTitle.alpha = alpha
+                }
+            } else {
+                
+                UIView.animate(withDuration: 0.1, delay: 0.0
+                    , options: .curveLinear, animations: {
+                        
+                        self.navView.backgroundColor = UIColor.white
+                        self.navView.frame.origin.y = 0
+                        self.navView.navigationTitle.alpha = 1
+                        
+                }) { completed in
                     
-            }) { completed in
+                }
                 
             }
-        } else {
-            
-            UIView.animate(withDuration: 0.1, delay: 0.0
-                , options: .curveLinear, animations: {
-                    
-                    self.navView.backgroundColor = UIColor.white
-                    self.navView.frame.origin.y = 0
-                    self.navView.navigationTitle.alpha = 1
-                    
-            }) { completed in
-                
-            }
-            
         }
-        
     }
     
     func floatingPanel(_ vc: FloatingPanelController, layoutFor newCollection: UITraitCollection) -> FloatingPanelLayout? {
          return newCollection.verticalSizeClass == .compact ? RemovablePanelLandscapeLayout() :  RemovablePanelLayout()
+    }
+    
+    private func showNotificationFire(){
+        let alertController = UIAlertController(title: "Oops", message: "No more data available.", preferredStyle: .alert)
+        
+        let action2 = UIAlertAction(title: "OK", style: .cancel) { (action:UIAlertAction) in
+            print("You've pressed cancel");
+        }
+        
+        alertController.addAction(action2)
+        self.present(alertController, animated: true, completion: nil)
     }
     
 }

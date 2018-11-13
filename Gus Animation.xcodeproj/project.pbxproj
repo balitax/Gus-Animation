@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		431850FC424E2D78E275B413 /* Pods_Gus_AnimationUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E314FACB7798CE58B25FF61 /* Pods_Gus_AnimationUITests.framework */; };
+		56AE252D9F91E3D4384208B4 /* Pods_Gus_Animation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B85EEC4BF6E0348C642777ED /* Pods_Gus_Animation.framework */; };
 		B901ECAE219718CB0025FB54 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B901ECAD219718CB0025FB54 /* AppDelegate.swift */; };
 		B901ECB3219718CB0025FB54 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B901ECB1219718CB0025FB54 /* Main.storyboard */; };
 		B901ECB5219718CD0025FB54 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B901ECB4219718CD0025FB54 /* Assets.xcassets */; };
@@ -47,6 +49,7 @@
 		B9FD22882199233C008690EB /* GSViewDashLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9FD22872199233C008690EB /* GSViewDashLine.swift */; };
 		B9FD228A21992BC9008690EB /* HeaderSection.xib in Resources */ = {isa = PBXBuildFile; fileRef = B9FD228921992BC9008690EB /* HeaderSection.xib */; };
 		B9FD228C21992C48008690EB /* HeaderSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9FD228B21992C48008690EB /* HeaderSection.swift */; };
+		E47A0613E84918015125A90F /* Pods_Gus_AnimationTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4286985BB5893C4F67D49B8 /* Pods_Gus_AnimationTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +70,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1224E71D083D2368A202345A /* Pods-Gus AnimationUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gus AnimationUITests.debug.xcconfig"; path = "Target Support Files/Pods-Gus AnimationUITests/Pods-Gus AnimationUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		20B1A420A3C7EB63D1CA7290 /* Pods-Gus AnimationTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gus AnimationTests.release.xcconfig"; path = "Target Support Files/Pods-Gus AnimationTests/Pods-Gus AnimationTests.release.xcconfig"; sourceTree = "<group>"; };
+		3E314FACB7798CE58B25FF61 /* Pods_Gus_AnimationUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Gus_AnimationUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		90E7F0DBCE2A336748C0B0D7 /* Pods-Gus Animation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gus Animation.debug.xcconfig"; path = "Target Support Files/Pods-Gus Animation/Pods-Gus Animation.debug.xcconfig"; sourceTree = "<group>"; };
+		9F5EDFBF45EEDF5B11C8704B /* Pods-Gus AnimationTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gus AnimationTests.debug.xcconfig"; path = "Target Support Files/Pods-Gus AnimationTests/Pods-Gus AnimationTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B85EEC4BF6E0348C642777ED /* Pods_Gus_Animation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Gus_Animation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B901ECAA219718CB0025FB54 /* Gus Animation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Gus Animation.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B901ECAD219718CB0025FB54 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B901ECB2219718CB0025FB54 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -114,6 +123,9 @@
 		B9FD22872199233C008690EB /* GSViewDashLine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GSViewDashLine.swift; sourceTree = "<group>"; };
 		B9FD228921992BC9008690EB /* HeaderSection.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HeaderSection.xib; sourceTree = "<group>"; };
 		B9FD228B21992C48008690EB /* HeaderSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderSection.swift; sourceTree = "<group>"; };
+		BC4D6D59B26D277662449E6D /* Pods-Gus Animation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gus Animation.release.xcconfig"; path = "Target Support Files/Pods-Gus Animation/Pods-Gus Animation.release.xcconfig"; sourceTree = "<group>"; };
+		C4286985BB5893C4F67D49B8 /* Pods_Gus_AnimationTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Gus_AnimationTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0D481C8EDCA69E389BFBF78 /* Pods-Gus AnimationUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gus AnimationUITests.release.xcconfig"; path = "Target Support Files/Pods-Gus AnimationUITests/Pods-Gus AnimationUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +133,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				56AE252D9F91E3D4384208B4 /* Pods_Gus_Animation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -128,6 +141,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E47A0613E84918015125A90F /* Pods_Gus_AnimationTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,12 +149,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				431850FC424E2D78E275B413 /* Pods_Gus_AnimationUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		485672467A3C6822F68C3EC6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				90E7F0DBCE2A336748C0B0D7 /* Pods-Gus Animation.debug.xcconfig */,
+				BC4D6D59B26D277662449E6D /* Pods-Gus Animation.release.xcconfig */,
+				9F5EDFBF45EEDF5B11C8704B /* Pods-Gus AnimationTests.debug.xcconfig */,
+				20B1A420A3C7EB63D1CA7290 /* Pods-Gus AnimationTests.release.xcconfig */,
+				1224E71D083D2368A202345A /* Pods-Gus AnimationUITests.debug.xcconfig */,
+				D0D481C8EDCA69E389BFBF78 /* Pods-Gus AnimationUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		B901ECA1219718CB0025FB54 = {
 			isa = PBXGroup;
 			children = (
@@ -149,6 +177,7 @@
 				B901ECCC219718CD0025FB54 /* Gus AnimationUITests */,
 				B901ECAB219718CB0025FB54 /* Products */,
 				B901ECE7219721840025FB54 /* Frameworks */,
+				485672467A3C6822F68C3EC6 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -220,6 +249,9 @@
 		B901ECE7219721840025FB54 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				B85EEC4BF6E0348C642777ED /* Pods_Gus_Animation.framework */,
+				C4286985BB5893C4F67D49B8 /* Pods_Gus_AnimationTests.framework */,
+				3E314FACB7798CE58B25FF61 /* Pods_Gus_AnimationUITests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -289,9 +321,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B901ECD2219718CD0025FB54 /* Build configuration list for PBXNativeTarget "Gus Animation" */;
 			buildPhases = (
+				089662A36C42C5A7C1CC8B50 /* [CP] Check Pods Manifest.lock */,
 				B901ECA6219718CB0025FB54 /* Sources */,
 				B901ECA7219718CB0025FB54 /* Frameworks */,
 				B901ECA8219718CB0025FB54 /* Resources */,
+				7C9604170632174533CFF6EE /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -306,6 +340,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B901ECD5219718CD0025FB54 /* Build configuration list for PBXNativeTarget "Gus AnimationTests" */;
 			buildPhases = (
+				BD5454F93BD9C784FD826E62 /* [CP] Check Pods Manifest.lock */,
 				B901ECBA219718CD0025FB54 /* Sources */,
 				B901ECBB219718CD0025FB54 /* Frameworks */,
 				B901ECBC219718CD0025FB54 /* Resources */,
@@ -324,6 +359,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B901ECD8219718CD0025FB54 /* Build configuration list for PBXNativeTarget "Gus AnimationUITests" */;
 			buildPhases = (
+				1F18584910C7DAC2D17B8A86 /* [CP] Check Pods Manifest.lock */,
 				B901ECC5219718CD0025FB54 /* Sources */,
 				B901ECC6219718CD0025FB54 /* Frameworks */,
 				B901ECC7219718CD0025FB54 /* Resources */,
@@ -411,6 +447,99 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		089662A36C42C5A7C1CC8B50 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Gus Animation-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1F18584910C7DAC2D17B8A86 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Gus AnimationUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7C9604170632174533CFF6EE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Gus Animation/Pods-Gus Animation-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AMRefresher/AMRefresher.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AMRefresher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Gus Animation/Pods-Gus Animation-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BD5454F93BD9C784FD826E62 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Gus AnimationTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		B901ECA6219718CB0025FB54 /* Sources */ = {
@@ -620,6 +749,7 @@
 		};
 		B901ECD3219718CD0025FB54 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90E7F0DBCE2A336748C0B0D7 /* Pods-Gus Animation.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -646,6 +776,7 @@
 		};
 		B901ECD4219718CD0025FB54 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC4D6D59B26D277662449E6D /* Pods-Gus Animation.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -672,6 +803,7 @@
 		};
 		B901ECD6219718CD0025FB54 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F5EDFBF45EEDF5B11C8704B /* Pods-Gus AnimationTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -693,6 +825,7 @@
 		};
 		B901ECD7219718CD0025FB54 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20B1A420A3C7EB63D1CA7290 /* Pods-Gus AnimationTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -714,6 +847,7 @@
 		};
 		B901ECD9219718CD0025FB54 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1224E71D083D2368A202345A /* Pods-Gus AnimationUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -734,6 +868,7 @@
 		};
 		B901ECDA219718CD0025FB54 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0D481C8EDCA69E389BFBF78 /* Pods-Gus AnimationUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

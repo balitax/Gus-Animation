@@ -60,7 +60,7 @@ class RemovablePanelLandscapeLayout: FloatingPanelLayout {
     
     func insetFor(position: FloatingPanelPosition) -> CGFloat? {
         switch position {
-        case .half: return 261.0
+        case .half: return nil
         default: return nil
         }
     }

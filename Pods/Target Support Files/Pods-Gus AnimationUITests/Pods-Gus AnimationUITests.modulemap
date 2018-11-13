@@ -1,0 +1,6 @@
+framework module Pods_Gus_AnimationUITests {
+  umbrella header "Pods-Gus AnimationUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
